@@ -1,0 +1,3 @@
+
+CREATE DATABASE automation WITH DURATION 30d REPLICATION 1 NAME "rp_30d"
+CREATE RETENTION POLICY automation_default_policy ON automation DURATION 168h REPLICATION 1 default
